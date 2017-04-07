@@ -119,6 +119,24 @@ describe ('Tests based on standard JSON Schema Test Suite', () => {
       });
     });
 
+    describe('description', () => {
+      test('description', 'description matches description', () => {
+        const schema = json.description('description');
+        assert.equal(schema.description(), 'description');
+        return schema;
+      });
+
+    });
+
+    describe('title', () => {
+      test('title', 'title matches title', () => {
+        const schema = json.title('title');
+        assert.equal(schema.title(), 'title');
+        return schema;
+      });
+
+    });
+
     describe('type', () => {
 
       test('type', 'integer type matches integers', () => {

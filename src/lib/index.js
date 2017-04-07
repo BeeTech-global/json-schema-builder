@@ -8,6 +8,8 @@ exports.default = function () { return schema().default(...arguments) }
 exports.enum = function () { return schema().enum(...arguments) }
 exports.not = function () { return schema().not(...arguments) }
 exports.oneOf = function () { return schema().oneOf(...arguments) }
+exports.title = function () { return schema().title(...arguments) }
+exports.description = function () { return schema().description(...arguments) }
 exports.type = function () { return schema().type(...arguments) }
 
 // generic helpers - type wrappers
