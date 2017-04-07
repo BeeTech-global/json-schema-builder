@@ -1,0 +1,13 @@
+{
+  "properties": {
+    "foo": {
+      "type": "string"
+    },
+    "bar": {
+      "type": "integer"
+    }
+  },
+  "required": [
+    "foo"
+  ]
+}
