@@ -20,7 +20,7 @@ var _StringKeyword3 = _interopRequireDefault(_StringKeyword2);
 
 var _lodash = require('lodash');
 
-var validFormats = ['date-time', 'email', 'hostname', 'ipv4', 'ipv6', 'uri'];
+var validFormats = ['date', 'date-time', 'email', 'hostname', 'ipv4', 'ipv6', 'uri'];
 
 var Format = (function (_StringKeyword) {
 	_inherits(Format, _StringKeyword);

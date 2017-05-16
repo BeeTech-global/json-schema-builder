@@ -2,6 +2,7 @@ import StringKeyword from './StringKeyword';
 import { includes } from 'lodash';
 
 let validFormats = [
+	'date',
 	'date-time',
 	'email',
 	'hostname',
